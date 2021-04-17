@@ -4,14 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>
       Frontend Mentor | Fylo landing page with dark theme and features grid
     </title>
@@ -20,6 +18,12 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      src="https://kit.fontawesome.com/b61136cc88.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -37,7 +41,7 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container container-sm">
+        <div class="container container--small">
           <img
             src="./images/illustration-intro.png"
             alt="illustration of guys taking out papers from a file"
@@ -118,10 +122,12 @@
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required.
             </p>
-            <a href="#" class="btn-accent"
-              >See how Fylo works<span
-                ><img src="./images/icon-arrow.svg" alt="" /></span
-            ></a>
+            <a href="#" class="btn-accent">See how Fylo works</a>
+            <!-- <a href="#" class="btn-accent">
+              See how Fylo works<span
+                ><img src="./images/icon-arrow.svg" alt=""
+              /></span>
+            </a> -->
           </div>
         </div>
       </section>
@@ -200,13 +206,11 @@
         /></a>
         <div class="footer-nav">
           <div>
-            <ul>
-              <li>
-                <span><img src="./images/icon-location.svg" alt="" /></span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </li>
-            </ul>
+            <p>
+              <span><img src="./images/icon-location.svg" alt="" /></span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
             <ul class="flow-content">
               <li>
                 <span><img src="./images/icon-phone.svg" alt="" /></span
@@ -230,10 +234,22 @@
               <li><a href="#">Terms</a></li>
               <li><a href="#">Privacy</a></li>
             </ul>
-            <ul>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+            <ul class="footer-socials">
+              <li>
+                <a aria-label="facebook logo" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a aria-label="twitter logo" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a aria-label="instagram logo" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
             </ul>
           </div>
         </div>

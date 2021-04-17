@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+.page-title,
+.page-subtitle,
+.primary-nav,
+.btn,
+.btn-accent {
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-700);
+}
+
+.primary-nav,
+.btn,
+.btn-accent {
+  font-weight: var(--fw-400);
+}
+
+.btn-accent {
+  font-size: .75rem;
+  color: var(--clr-accent-300);
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--clr-accent-300);
+
+  &::after {
+    content: '';
+    display: inline-block;
+    background-image: url("/images/icon-arrow.svg");
+    background-repeat: no-repeat;
+    height: 1rem;
+    width: 1rem;
+    margin-left: .5em; 
+    vertical-align: middle;
+  }
+}

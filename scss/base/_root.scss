@@ -13,5 +13,14 @@
 
   --clr-neutral-100: hsl(0, 0%, 100%);
 
-  --fs-400: 1.285rem;
+  --fs-400: 0.875rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --cta-gradient: linear-gradient(
+    to right,
+    var(--clr-accent-300),
+    var(--clr-accent-400)
+  );
 }
