@@ -114,6 +114,20 @@ h3,
   vertical-align: middle;
 }
 
+.btn {
+  display: inline-block;
+  padding: 1.2em 6em;
+  cursor: pointer;
+  border: none;
+  border-radius: 3rem;
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-700);
+  background: var(--cta-gradient);
+}
+.btn:hover, .btn:focus {
+  background: var(--clr-accent-300);
+}
+
 section {
   padding: 3rem 0;
 }
@@ -136,7 +150,7 @@ section {
 }
 
 .flow-content > * + * {
-  margin-top: var(--flow-spacer, 1em);
+  margin-top: var(--flow-spacer, 1.2em);
 }
 
 .split {

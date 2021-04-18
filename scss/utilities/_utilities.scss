@@ -1,34 +1,33 @@
 .container {
-    margin: 0 auto;
-    padding: 2em;
+  margin: 0 auto;
+  padding: 2em;
 }
 
 .container--small {
-    max-width: 56.25rem;
+  max-width: 56.25rem;
 }
 
 .container-large {
-    max-width: 76.56rem;
+  max-width: 76.56rem;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
-.flow-content > * + *  {
-    margin-top: var(--flow-spacer, 1em);
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, 1.2em);
 }
 
 .split {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .split > * + * {
-    margin: var(--flow-split, 3em) 0 0 0;
+  margin: var(--flow-split, 3em) 0 0 0;
 }
 
 .split > * {
-    flex-basis: 100%;
+  flex-basis: 100%;
 }
-
