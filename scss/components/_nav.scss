@@ -1,0 +1,21 @@
+// .primary-header {
+//     padding: 1.5rem;
+// }
+
+.primary-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        height: 2rem;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    ul > * + * {
+        margin-left: 1.5em;
+    }
+}

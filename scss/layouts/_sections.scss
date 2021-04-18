@@ -1,0 +1,17 @@
+section {
+  padding: 3rem 0;
+}
+
+.primary-header {
+  padding: 1.5rem;
+  background-color: var(--clr-primary-300);
+}
+
+.hero {
+  --flow-spacer: 2em;
+  background-color: var(--clr-primary-300);
+  background-image: url("/images/bg-curvy-mobile.svg");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

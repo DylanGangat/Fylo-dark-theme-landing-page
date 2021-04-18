@@ -24,20 +24,4 @@ h3,
   font-weight: var(--fw-400);
 }
 
-.btn-accent {
-  font-size: 0.75rem;
-  color: var(--clr-accent-300);
-  padding-bottom: 0.4em;
-  border-bottom: 2px solid var(--clr-accent-300);
 
-  &::after {
-    content: "";
-    display: inline-block;
-    background-image: url("/images/icon-arrow.svg");
-    background-repeat: no-repeat;
-    height: 1rem;
-    width: 1rem;
-    margin-left: 0.5em;
-    vertical-align: middle;
-  }
-}

@@ -1,0 +1,12 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6em;
+}
+
+.about-card {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
