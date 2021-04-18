@@ -1,0 +1,34 @@
+.container {
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.container--small {
+    max-width: 56.25rem;
+}
+
+.container-large {
+    max-width: 76.56rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.flow-content > * + *  {
+    margin-top: var(--flow-spacer, 1em);
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+.split > * + * {
+    margin: var(--flow-split, 3em) 0 0 0;
+}
+
+.split > * {
+    flex-basis: 100%;
+}
+
