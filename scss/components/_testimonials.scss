@@ -1,0 +1,56 @@
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr );
+  gap: 3em;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  & > * {
+    grid-column: 1 / -1;
+    background-color: var(--clr-primary-200);
+    padding: 2em;
+    border-radius: var(--radius);
+  }
+
+  &:first-child::before {
+    content: "";
+    position: absolute;
+    background-image: url("/images/bg-quotes.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    top: -2.5em;
+    left: .5em;
+    z-index: -1;
+  }
+}
+
+.review-card {
+  box-shadow: 15px 4px 1px 0px var(--clr-primary-400);
+
+  .reviewer {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+
+    & > :first-child {
+      margin-right: 1em;
+    }
+  }
+
+  .name {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-700);
+  }
+
+  .job-title {
+    font-size: var(--fs-300);
+  }
+}

@@ -59,6 +59,7 @@ body {
   --clr-accent-400: hsl(198, 60%, 50%);
   --clr-accent-500: hsl(0, 100%, 63%);
   --clr-neutral-100: hsl(0, 0%, 100%);
+  --fs-300: 0.7rem;
   --fs-400: 0.875rem;
   --fs-500: 1.15rem;
   --fs-700: 1.5rem;
@@ -69,6 +70,7 @@ body {
     var(--clr-accent-300),
     var(--clr-accent-400)
   );
+  --radius: 7px;
 }
 
 h1,
@@ -141,6 +143,52 @@ h3,
   margin-right: auto;
 }
 
+.footer-nav .info {
+  display: flex;
+  align-items: start;
+}
+.footer-nav .info > * + * {
+  margin-left: 1.5em;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+}
+.footer-socials > * + * {
+  margin-left: 1em;
+}
+.footer-socials a {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid var(--clr-neutral-100);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta {
+  padding: 2em;
+  border-radius: var(--radius);
+  background-color: var(--clr-primary-300);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(11rem);
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up input {
+  padding: 1.2em 2em;
+  border-radius: 3rem;
+  border: none;
+}
+.sign-up input::placeholder {
+  opacity: 0.3;
+}
+
 .primary-nav {
   display: flex;
   justify-content: space-between;
@@ -154,6 +202,56 @@ h3,
 }
 .primary-nav ul > * + * {
   margin-left: 1.5em;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3em;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reviews > * {
+  grid-column: 1/-1;
+  background-color: var(--clr-primary-200);
+  padding: 2em;
+  border-radius: var(--radius);
+}
+.reviews:first-child::before {
+  content: "";
+  position: absolute;
+  background-image: url("/images/bg-quotes.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: -2.5em;
+  left: 0.5em;
+  z-index: -1;
+}
+
+.review-card {
+  box-shadow: 15px 4px 1px 0px var(--clr-primary-400);
+}
+.review-card .reviewer {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.review-card .info {
+  display: flex;
+  align-items: center;
+}
+.review-card .info > :first-child {
+  margin-right: 1em;
+}
+.review-card .name {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-700);
+}
+.review-card .job-title {
+  font-size: var(--fs-300);
 }
 
 section {
@@ -172,6 +270,15 @@ section {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.testimonials {
+  padding: 3rem 0 0 0;
+}
+
+.primary-footer {
+  background-color: var(--clr-primary-500);
+  padding: 16rem 0 3rem 0;
 }
 
 .container {

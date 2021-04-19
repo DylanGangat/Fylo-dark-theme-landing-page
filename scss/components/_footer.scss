@@ -1,0 +1,30 @@
+.footer-nav {
+    
+    .info {
+        display: flex;
+        align-items: start;
+    }
+
+    .info > * + * {
+        margin-left: 1.5em;
+    }
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+
+    & > * + * {
+        margin-left: 1em;
+    }
+
+    a {
+        height: 2rem;
+        width: 2rem;
+        border: 1px solid var(--clr-neutral-100);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
