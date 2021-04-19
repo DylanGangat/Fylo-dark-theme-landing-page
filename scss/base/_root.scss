@@ -28,4 +28,8 @@
   );
 
   --radius: 7px;
+
+  @media(min-width: 45em) {
+    --fs-700: 2.5rem;
+  }
 }

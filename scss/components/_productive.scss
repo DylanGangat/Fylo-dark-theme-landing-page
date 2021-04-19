@@ -1,0 +1,19 @@
+.productive {
+  --flow-split: 4em;
+
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .split {
+    align-items: center;
+  }
+
+  @media (min-width: 45em) {
+    h3 {
+      font-size: var(--fs-700);
+      max-width: 15ch;
+    }
+  }
+}

@@ -1,23 +1,50 @@
 .cta {
-    padding: 2em;
-    border-radius: var(--radius);
-    background-color: var(--clr-primary-300);
-    box-shadow: 0 0 20px 5px rgba(0,0,0, .2);
-    transform: translateY(11rem);
+  max-width: 53.75rem;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: var(--radius);
+  background-color: var(--clr-primary-300);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(11rem);
+  --flow-split: 1.5em;
+  --flow-spacer: 1.5em;
+
+  @media (min-width: 45em) {
+    padding: 2em 7em;
+
+    h3 {
+      font-size: 2rem;
+    }
+  }
 }
 
 .sign-up {
-    display: flex;
-    flex-direction: column;
-   
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 45em) {
+    flex-direction: row;
 
     input {
-        padding: 1.2em 2em;
-        border-radius: 3rem;
-        border: none;
+      flex-basis: 65%;
     }
 
-    input::placeholder {
-        opacity: .3;
+    .btn {
+      flex-basis: 35%;
     }
+  }
+
+  .btn {
+    padding: 1.2em 1.8em;
+  }
+
+  input {
+    padding: 1.2em 2em;
+    border-radius: 3rem;
+    border: none;
+  }
+
+  input::placeholder {
+    opacity: 0.3;
+  }
 }

@@ -1,14 +1,18 @@
 .reviews {
   display: grid;
-  grid-template-columns: repeat(6, 1fr );
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  justify-content: center;
   gap: 3em;
   position: relative;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 
+  @media(min-width: 45em) {
+    width: 100%;
+  }
+
   & > * {
-    grid-column: 1 / -1;
     background-color: var(--clr-primary-200);
     padding: 2em;
     border-radius: var(--radius);
@@ -54,3 +58,5 @@
     font-size: var(--fs-300);
   }
 }
+
+

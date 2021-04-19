@@ -27,4 +27,10 @@
         align-items: center;
         justify-content: center;
     }
+
+    a:hover,
+    a:focus {
+        color: var(--clr-accent-300);
+        border-color: currentColor;
+    }
 }

@@ -1,5 +1,9 @@
 section {
   padding: 3rem 0;
+
+  @media (min-width: 45em) {
+    padding: 6rem 0;
+  }
 }
 
 .primary-header {
@@ -14,10 +18,19 @@ section {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+  padding-top: 0;
+
+  @media (min-width: 45em) {
+    background-image: url("/images/bg-curvy-desktop.svg");
+    
+    p {
+      font-size: 1.4rem;
+    }
+  }
 }
 
 .testimonials {
-  padding: 3rem 0 0 0;
+  padding: 8rem 0 0 0;
 }
 
 .primary-footer {
