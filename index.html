@@ -76,7 +76,8 @@
             <div class="about-card flow-content">
               <img
                 src="./images/icon-security.svg"
-                alt="illustrated security badge" style="height: 78px;"
+                alt="illustrated security badge"
+                style="height: 78px"
               />
               <h3 class="page-subtitle">Security you can trust</h3>
               <p>
@@ -112,7 +113,7 @@
       <!-- end section -->
 
       <section class="productive text-left">
-        <div class="container container--large split">
+        <div class="container container--large info">
           <figure>
             <img
               src="./images/illustration-stay-productive.png"
@@ -241,13 +242,16 @@
               would be happy to help you.
             </p>
             <form action="#" class="split sign-up">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="email@example.com"
-                required
-              />
+              <div class="input-field">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@example.com"
+                  required/>
+                  <span>Please enter a valid email address</span>
+              </div>
+              
               <button class="btn" type="submit">Get Started For Free</button>
             </form>
           </div>
@@ -256,12 +260,13 @@
     </main>
 
     <footer class="primary-footer">
-      <div class="container container--large text-left split">
-        <a href="https://www.frontendmentor.io?ref=challenge"
-          ><img src="./images/logo.svg" alt=""
-        /></a>
+      <div class="container container--large text-left">
         <div class="footer-nav">
-          <div class="flow-content">
+          <a class="logo" href="https://www.frontendmentor.io?ref=challenge"
+            ><img src="./images/logo.svg" alt="logo" 
+          /></a>
+
+          <div class="contact">
             <div class="info">
               <img src="./images/icon-location.svg" alt="" />
               <p>
@@ -281,7 +286,8 @@
               </li>
             </ul>
           </div>
-          <div class="split">
+
+          <div class="info-nav">
             <ul class="flow-content">
               <li><a href="#">About us</a></li>
               <li><a href="#">Jobs</a></li>

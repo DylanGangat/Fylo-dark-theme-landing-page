@@ -1,7 +1,7 @@
 .reviews {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  justify-content: center;
+  justify-items: center;
   gap: 3em;
   position: relative;
   width: 90%;
@@ -32,7 +32,7 @@
 }
 
 .review-card {
-  box-shadow: 15px 4px 1px 0px var(--clr-primary-400);
+  box-shadow: 15px 4px 1px 0px rgba(0,0,0, 0.01);
 
   .reviewer {
     height: 35px;

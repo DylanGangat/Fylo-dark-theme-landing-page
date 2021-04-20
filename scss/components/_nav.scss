@@ -1,21 +1,27 @@
-// .primary-header {
-//     padding: 1.5rem;
-// }
-
 .primary-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    height: 2rem;
+
+    @media (min-width: 45em) {
+      height: 3rem;
+    }
+  }
+
+  ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+  }
 
-    img {
-        height: 2rem;
-    }
+  ul > * + * {
+    margin-left: 1.5em;
+  }
 
-    ul {
-        display: flex;
-    }
-
-    ul > * + * {
-        margin-left: 1.5em;
-    }
+  a:hover,
+  a:focus {
+    font-weight: var(--fw-700);
+    border-bottom: 1px solid currentColor;
+  }
 }
