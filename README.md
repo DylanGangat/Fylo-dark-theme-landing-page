@@ -26,8 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Design](./images/mobile-design of fylo-dark 375px.png)
-![Desktop Design](./desktop-design of fylo-dark 1440px.png)
+Mobile Design
+
+![Mobile Design](./images/mobile-design.png)
+
+Desktop Design
+
+![Desktop Design](./images/desktop-design.png)
 
 ### Links
 
