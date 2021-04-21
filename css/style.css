@@ -321,6 +321,11 @@ h3,
 .primary-nav ul > * + * {
   margin-left: 1.5em;
 }
+@media (min-width: 45em) {
+  .primary-nav ul > * + * {
+    margin-left: 3em;
+  }
+}
 .primary-nav a:hover,
 .primary-nav a:focus {
   font-weight: var(--fw-700);
