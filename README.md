@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Design]('./images/mobile-design of fylo-dark 375px.png')
-![Desktop Design]('./desktop-design of fylo-dark 1440px.png')
+![Mobile Design](./images/mobile-design of fylo-dark 375px.png)
+![Desktop Design](./desktop-design of fylo-dark 1440px.png)
 
 ### Links
 
@@ -36,7 +36,7 @@ Users should be able to:
 
 ## My process
 
-### Built with
+### Built with 
 
 - Semantic HTML5 markup 
 - CSS custom properties
