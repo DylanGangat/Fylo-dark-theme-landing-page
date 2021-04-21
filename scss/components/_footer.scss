@@ -26,11 +26,6 @@
     }
   }
 
-  a:hover,
-  a:focus {
-    font-weight: var(--fw-700);
-  }
-
   .info-nav {
     display: grid;
     gap: 3em;
@@ -41,9 +36,14 @@
     }
 
     @media (min-width: 62.5em) {
-      grid-template-columns: repeat(3, max-content);
+      grid-template-columns: repeat(3, 1fr);
       gap: 6em;
     }
+  }
+
+  .info-nav a:hover,
+  .info-nav a:focus {
+    font-weight: var(--fw-700);
   }
 
   @media (min-width: 45em) {

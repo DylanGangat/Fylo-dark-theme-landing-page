@@ -188,10 +188,6 @@ h3,
     gap: 4em;
   }
 }
-.footer-nav a:hover,
-.footer-nav a:focus {
-  font-weight: var(--fw-700);
-}
 .footer-nav .info-nav {
   display: grid;
   gap: 3em;
@@ -204,9 +200,13 @@ h3,
 }
 @media (min-width: 62.5em) {
   .footer-nav .info-nav {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(3, 1fr);
     gap: 6em;
   }
+}
+.footer-nav .info-nav a:hover,
+.footer-nav .info-nav a:focus {
+  font-weight: var(--fw-700);
 }
 @media (min-width: 45em) {
   .footer-nav {
@@ -270,7 +270,7 @@ h3,
   font-size: var(--fs-300);
   color: var(--clr-accent-500);
   text-align: left;
-  margin: 0.5em 0 0 0.5em;
+  margin: 0.5em 0 0 2.3em;
 }
 .sign-up input:not(:focus):not(:placeholder-shown):invalid + .error {
   display: inline-block;
@@ -326,8 +326,8 @@ h3,
     margin-left: 3em;
   }
 }
-.primary-nav a:hover,
-.primary-nav a:focus {
+.primary-nav ul a:hover,
+.primary-nav ul a:focus {
   font-weight: var(--fw-700);
   border-bottom: 1px solid currentColor;
 }

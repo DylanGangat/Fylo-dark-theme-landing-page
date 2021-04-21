@@ -23,8 +23,8 @@
     }
   }
 
-  a:hover,
-  a:focus {
+  ul a:hover,
+  ul a:focus {
     font-weight: var(--fw-700);
     border-bottom: 1px solid currentColor;
   }
