@@ -323,7 +323,7 @@ h3,
 }
 @media (min-width: 45em) {
   .primary-nav ul > * + * {
-    margin-left: 3em;
+    margin-left: 2em;
   }
 }
 .primary-nav ul a:hover,
@@ -413,7 +413,7 @@ section {
 }
 @media (min-width: 45em) {
   section {
-    padding: 6rem 0;
+    padding: 5rem 0;
   }
 }
 
