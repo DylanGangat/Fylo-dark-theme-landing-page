@@ -2,7 +2,7 @@
 
 This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of contents 📑
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -17,14 +17,14 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ## Overview
 
-### The challenge
+### The challenge 👍
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+### Screenshot 📷
 
 Mobile Design
 
@@ -34,14 +34,14 @@ Desktop Design
 
 ![Desktop Design](./images/desktop-design.png)
 
-### Links
+### Links 🔗
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
-### Built with 
+### Built with 🏗️
 
 - Semantic HTML5 markup 
 - CSS custom properties
@@ -50,7 +50,7 @@ Desktop Design
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
+### What I learned 🧠
 
 There were many small challenges that I faced along the way but I learnt that Stackover Flow and MDN was my friends. I feel the best way to explain what I learnt is through a list. These are the things I feel I learnt along the way or improved on:
 
@@ -95,7 +95,7 @@ input:not(:focus):not(:placeholder-shown):invalid + .error {
 
 - One other challenge I faced was figuring out how to make a svg change color on a hover state. It was quite tricky for me but I ended up embedding the svg markup into my html instead of linking it to the image source. That way I could manipulate the fill through css. It's not the cleanest looking way but that was the best I could come up with.
 
-### Favorite selector from this project
+### Favorite selector from this project 🥇
 
 Used this for most of spacing and I feel it made my code cleaner and life so much easier.
 
@@ -105,12 +105,12 @@ Used this for most of spacing and I feel it made my code cleaner and life so muc
 }
 ```
 
-### Continued development
+### Continued development 📈
 
 I feel for the future I need to improve my understanding with svg's and how to use them in projects.
 Also I want to design websites in a shorter amount of time.
 
-### Useful resources
+### Useful resources 🔖
 
 [bram.us](https://www.bram.us/2021/01/28/form-validation-you-want-notfocusinvalid-not-invalid/) - This helped me to use plain css and no javascript to create input error message. I would use this approach again if I am restricted to only using html and css in a project.
 
@@ -120,4 +120,4 @@ Also I want to design websites in a shorter amount of time.
 
 ## Author
 
-Frontend Mentor - [@DylanGangat](https://www.frontendmentor.io/profile/DylanGangat)
+Frontend Mentor - [@DylanGangat](https://www.frontendmentor.io/profile/DylanGangat) 😊
