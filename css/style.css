@@ -419,7 +419,7 @@ section {
 
 .primary-header {
   --max-width: 95rem;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   background-color: var(--clr-primary-300);
 }
 @media (min-width: 45em) {
