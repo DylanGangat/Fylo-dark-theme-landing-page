@@ -306,9 +306,6 @@ h3,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 95rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 .primary-nav img {
   height: 2rem;
@@ -421,6 +418,7 @@ section {
 }
 
 .primary-header {
+  --max-width: 95rem;
   padding: 1.5rem;
   background-color: var(--clr-primary-300);
 }
@@ -432,6 +430,7 @@ section {
 
 .hero {
   --flow-spacer: 2em;
+  --max-width: 46rem;
   background-color: var(--clr-primary-300);
   background-image: url("/images/bg-curvy-mobile.svg");
   background-position: bottom;
@@ -448,11 +447,21 @@ section {
   }
 }
 
+.about {
+  --max-width: 55rem;
+}
+
+.productive {
+  --max-width: 76rem;
+}
+
 .testimonials {
+  --max-width: 76rem;
   padding: 8rem 0 0 0;
 }
 
 .primary-footer {
+  --max-width: 76rem;
   background-color: var(--clr-primary-500);
   padding: 16rem 0 3rem 0;
 }
@@ -460,18 +469,7 @@ section {
 .container {
   margin: 0 auto;
   padding: 0 2em;
-}
-
-.container--small {
-  max-width: 46rem;
-}
-
-.container--medium {
-  max-width: 55rem;
-}
-
-.container--large {
-  max-width: 76rem;
+  max-width: var(--max-width);
 }
 
 .text-left {

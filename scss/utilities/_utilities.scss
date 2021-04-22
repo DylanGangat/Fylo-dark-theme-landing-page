@@ -1,18 +1,7 @@
 .container {
   margin: 0 auto;
   padding: 0 2em;
-}
-
-.container--small {
-  max-width: 46rem;
-}
-
-.container--medium {
-  max-width: 55rem;
-}
-
-.container--large {
-  max-width: 76rem;
+  max-width: var(--max-width);
 }
 
 .text-left {

@@ -7,6 +7,7 @@ section {
 }
 
 .primary-header {
+  --max-width: 95rem;
   padding: 1.5rem;
   background-color: var(--clr-primary-300);
 
@@ -17,6 +18,7 @@ section {
 
 .hero {
   --flow-spacer: 2em;
+  --max-width: 46rem;
   background-color: var(--clr-primary-300);
   background-image: url("/images/bg-curvy-mobile.svg");
   background-position: bottom;
@@ -33,11 +35,21 @@ section {
   }
 }
 
+.about {
+  --max-width: 55rem;
+}
+
+.productive {
+  --max-width: 76rem;
+}
+
 .testimonials {
+  --max-width: 76rem;
   padding: 8rem 0 0 0;
 }
 
 .primary-footer {
+  --max-width: 76rem;
   background-color: var(--clr-primary-500);
   padding: 16rem 0 3rem 0;
 }
