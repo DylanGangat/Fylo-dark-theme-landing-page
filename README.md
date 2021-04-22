@@ -38,7 +38,7 @@ Desktop Design
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/61953e61-af99-4ee5-aa1c-247bf4c2cd17/deploy-status)](https://app.netlify.com/sites/dylangangat-fylo-dark-landing-page/deploys)
 
-- Live Site URL: [Add live site URL here](https://dylangangat-fylo-dark-landing-page.netlify.app/)
+- Live Site URL: [Fylo landing page](https://dylangangat-fylo-dark-landing-page.netlify.app/)
 
 ## My process
 
@@ -108,8 +108,8 @@ Used this for most of spacing and I feel it made my code cleaner and life so muc
 
 ### Continued development 📈
 
-I feel for the future I need to improve my understanding with svg's and how to use them in projects.
-Also I want to design websites in a shorter amount of time.
+- I feel for the future I need to improve my understanding with svg's and how to use them in projects.
+- Also I want to design websites in a shorter amount of time.
 
 ### Useful resources 🔖
 
