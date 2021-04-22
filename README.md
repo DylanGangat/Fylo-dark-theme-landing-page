@@ -38,7 +38,6 @@ Desktop Design
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/61953e61-af99-4ee5-aa1c-247bf4c2cd17/deploy-status)](https://app.netlify.com/sites/dylangangat-fylo-dark-landing-page/deploys)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://dylangangat-fylo-dark-landing-page.netlify.app/)
 
 ## My process
